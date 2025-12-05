@@ -1,0 +1,7 @@
+{
+  "name": "MeteoriteVIP AI",
+  "description": "Ứng dụng AI chuyên sâu nhận diện thiên thạch, phân tích đa tầng (Ensemble x10) và trưng bày ảo SuperVIP.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
