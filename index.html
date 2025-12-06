@@ -16,6 +16,20 @@
       .animate-scan {
         animation: scan-line 2s linear infinite;
       }
+      @keyframes shimmer {
+        0% { transform: translateX(-100%) skewX(-15deg); }
+        100% { transform: translateX(200%) skewX(-15deg); }
+      }
+      @keyframes holograph {
+        0%, 100% { opacity: 0.5; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.02); }
+      }
+      .animate-shimmer {
+        animation: shimmer 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+      .animate-holograph {
+        animation: holograph 3s ease-in-out infinite;
+      }
       .perspective-vip {
         perspective: 1000px;
       }
